@@ -79,7 +79,7 @@ def auto_initialize_client():
                 asyncio.set_event_loop(loop)
 
                 # Get client with auto_connect=True to ensure initialization
-                client = loop.run_until_complete(get_client(auto_connect=True))
+                client = loop.run_until_complete(get_client(auto_connect=False))
                 st.session_state.client = client
 
                 # Ensure client is initialized
