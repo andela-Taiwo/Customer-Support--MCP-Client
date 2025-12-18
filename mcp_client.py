@@ -17,6 +17,7 @@ logger = get_logger(__name__)
 MCP_SERVER_URL = os.getenv(
     "MCP_SERVER_URL", "https://vipfapwm3x.us-east-1.awsapprunner.com/mcp"
 )
+
 GROQ_API_KEY = settings.GROQ_API_KEY
 OPENAI_API_KEY = settings.OPENAI_API_KEY
 MODEL = settings.model
