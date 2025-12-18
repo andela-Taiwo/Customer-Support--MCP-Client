@@ -1,0 +1,11 @@
+langchain
+langchain-groq
+langchain-openai
+langgraph
+mcp
+fastmcp
+langchain-mcp-adapters
+langgraph
+python-dotenv
+streamlit
+aiohttp
